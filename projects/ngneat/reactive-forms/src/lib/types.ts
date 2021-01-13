@@ -159,3 +159,8 @@ export interface PersistOptions<T> {
   manager?: PersistManager<T>;
   arrControlFactory?: ControlFactoryMap<T>;
 }
+
+export interface UpdateValueAndValidityOptions {
+  onlySelf?: boolean;
+  emitEvent?: boolean;
+}
